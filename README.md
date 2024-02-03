@@ -26,8 +26,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/hassanmoaa/recipe-page-component-FrontEndMentor.git)
+- Live Site URL: (https://splendorous-cucurucho-bf4a60.netlify.app/)
 
 
 ### Built with
