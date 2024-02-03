@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+
+:root {
+
+    /*primary*/
+    --nutMeg: hsl(14, 45%, 36%);
+    --accent: hsl(332, 51%, 32%);
+
+    /*neutral*/
+    --white: hsl(0, 0%, 100%);
+    --roseWhite: hsl(330, 100%, 98%);
+    --eggShell: hsl(30, 54%, 90%);
+    --lightGrey: hsl(30, 18%, 87%);
+    --wengeBrown: hsl(30, 10%, 34%);
+    --darkCharocoal: hsl(24, 5%, 18%);
+
+    /*fonts*/
+    --youngSerif-400: font-family: 'Young Serif', serif;
+    --specimen: font-family: 'Outfit', sans-serif;
+}
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--eggShell);
+    font-family: var(--specimen);
+    line-height: 2;
+}
+
+
+/*Main-Adjustements*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 70%;
+    max-width: 800px;
+
+    margin: 6rem auto;
+    background-color: var(--white);
+}
+
+.hero {
+    padding: 3rem;
+    border-radius: 12px;
+}
+
+.omelette-image {
+    width: 100%;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+
+
+/*Text-Styling*/
+.primary-section__main--title {
+    font-size: 40px;
+    font-family: var(--young-serif--400);
+    color: var(--darkCharocoal);
+
+}
+
+.accent {
+    color: var(--accent);
+}
+
+.nutMeg {
+    color: var(--nutMeg);
+}
+
+.small-text--color {
+    color: var(--darkCharocoal);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+
+/*Sections-Adjustement*/
+section {
+    margin: 1.2rem 0;
+}
+
+
+/*Prep-Section*/
+.preparation-section {
+    padding: 20px;
+    background-color: var(--eggShell) ;
+}
+
+.preparation-section__ul--list {
+    padding: 0 0 0 10px;
+    list-style-position: inside;
+}
+
+.preparation-section__ul--list__items::marker {
+    color: var(--accent);
+}
+
+
+
+/*Ingredients-Section*/
+.ingredients-section__ul--list {
+    padding-left: 20px;
+    
+}
+
+.ingredients-section__ul--list__items::marker {
+    color: var(--nutMeg);
+}
+
+
+
+/*Instructions-Section*/
+.instructions-section__ol--list {
+    padding-left: 20px;
+}
+
+.instructions-section__ol--list__items::marker {
+    color: var(--nutMeg);
+    font-weight: 700;
+}
+
+
+
+/*Nutrition-Section--Table*/
+td {
+    border-bottom: 1px solid var(--lightGrey);
+}
+
+.nutrition-section--name {
+    padding-left: 2rem;
+    color: var(--darkCharocoal);
+}
+
+.nutrition-section--weight {
+    padding-left: 14rem;
+    font-weight: 600;
+}
+
+
+
+.border-bottom {
+    border-bottom: 1px solid var(--lightGrey);
+}
+
+/*footer*/
+.attribution { font-size: 11px; text-align: center; display: none; }
+.attribution a { color: hsl(228, 45%, 44%); }
